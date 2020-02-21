@@ -1,0 +1,7 @@
+
+<!-- * = structural directive. modify the dom in some ay. -->
+<!-- dom is modified by ngFor loop. repeats <p> 3x (3 = number of elements in array values) -->
+
+<p *ngFor="let value of values"> 
+  {{value.id}}, {{value.name}}
+</p>
